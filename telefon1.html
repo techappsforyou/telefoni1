@@ -14,38 +14,38 @@
       min-height:100vh;
       background:#fafdff;
       box-shadow:0 0 18px #bed3f92a;
-      padding:0 0 80px 0;
+      padding:0 0 64px 0;
       border-radius:0 0 22px 22px;
       position:relative;
       display:flex;
       flex-direction:column;
     }
     .main-header {
-      width:100%;padding:32px 0 24px 0;
+      width:100%;padding:17px 0 13px 0;
       background:linear-gradient(91deg,#2e63ec 60%,#6d98fa 100%);
       color:#fff;
-      font-size:27px;
+      font-size:23px;
       font-weight:700;
-      letter-spacing:.05em;
-      border-radius:0 0 26px 26px;
-      box-shadow:0 6px 32px #3f75f129;
+      letter-spacing:.03em;
+      border-radius:0 0 20px 20px;
+      box-shadow:0 4px 24px #3f75f126;
       text-align:center;
-      margin-bottom:15px;
+      margin-bottom:8px;
     }
-    .selector-area {width:96%;margin:0 auto;}
-    .select-label {font-size:16px;color:#263453;margin-bottom:5px;margin-top:17px;}
+    .selector-area {width:95%;margin:0 auto;}
+    .select-label {font-size:15px;color:#263453;margin-bottom:3px;margin-top:10px;}
     .brand-select-btn {
-      width:100%; padding:13px 0; border-radius:12px;
+      width:100%; padding:11px 0 11px 15px; border-radius:10px;
       border:2px solid #d1e0fa; font-size:17px; background:#f6f8ff;
       color:#263453;font-family:'Montserrat',Arial,sans-serif; font-weight:600;
-      margin-bottom:2px;transition:.18s;cursor:pointer;
+      margin-bottom:1px;transition:.18s;cursor:pointer;
       display:flex;align-items:center;justify-content:space-between;
-      box-shadow:0 2px 6px #e4edfc55; outline:none;
-      position:relative;
+      box-shadow:0 1px 4px #e4edfc44; outline:none;
+      position:relative;text-align:left;
     }
     .brand-select-btn:after {
       content:"";display:inline-block;margin-left:7px;
-      border:solid #8da4d9;border-width:0 3px 3px 0;padding:5px;transform:rotate(45deg);
+      border:solid #8da4d9;border-width:0 2px 2px 0;padding:4px;transform:rotate(45deg);
       transition:.18s;position:relative;top:2px;
     }
     .brand-popup-bg {
@@ -54,93 +54,88 @@
       align-items:center;justify-content:center;
     }
     .brand-popup {
-      background:#fff; border-radius:17px; min-width:70vw;
-      max-width:325px;box-shadow:0 6px 28px #4773db27;
-      padding:23px 19px;animation:popupShow .19s;
+      background:#fff; border-radius:14px; min-width:65vw;
+      max-width:320px;box-shadow:0 6px 28px #4773db22;
+      padding:18px 14px;animation:popupShow .19s;
     }
     .brand-popup-title {
-      font-size:18px;font-weight:700;margin-bottom:9px;color:#2957bb;text-align:center;
+      font-size:17px;font-weight:700;margin-bottom:8px;color:#2957bb;text-align:center;
     }
     .brand-list {
-      display:flex;flex-direction:column;gap:11px;
+      display:flex;flex-direction:column;gap:9px;
     }
     .brand-item {
-      font-size:17px;padding:11px 0 9px 0;text-align:center;
-      border-radius:9px;cursor:pointer;transition:.16s;
+      font-size:16px;padding:9px 0 7px 0;text-align:center;
+      border-radius:8px;cursor:pointer;transition:.16s;
       background:#f5f7fe;font-weight:600;color:#29406d;
       border:2px solid #e7eefd;
     }
     .brand-item.selected, .brand-item:hover {
       background:#3577e7;color:#fff;border-color:#3577e7;
-      box-shadow:0 2px 12px #3875eb2a;
+      box-shadow:0 2px 9px #3875eb23;
     }
-    /* Цвета */
     .color-select-box {
-      width:100%;display:flex;gap:15px;margin:15px 0 2px 0;
+      width:100%;display:flex;gap:12px;margin:10px 0 2px 0;
       flex-wrap:wrap;justify-content:center;
     }
     .color-dot {
-      width:38px;height:38px;border-radius:50%;
-      border:3px solid #dae6f9;box-shadow:0 2px 12px #a4b4d12f;
-      cursor:pointer;transition:.15s;
+      width:35px;height:35px;border-radius:50%;
+      border:2.2px solid #dae6f9;box-shadow:0 2px 9px #a4b4d11f;
+      cursor:pointer;transition:.14s;
       display:flex;align-items:center;justify-content:center;
-      font-size:16px;font-weight:700;
-      margin-bottom:7px;
+      font-size:15px;font-weight:700;margin-bottom:5px;
       position:relative;outline:none;
     }
-    .color-dot.selected { border-color:#3577e7; box-shadow:0 0 0 6px #4e8bff18;}
-    /* Память 2х2 */
+    .color-dot.selected { border-color:#3577e7; box-shadow:0 0 0 5px #4e8bff17;}
     .memory-select-box {
-      width:98%;display:grid;grid-template-columns:1fr 1fr;
-      gap:13px;margin:15px auto 2px auto;
-      justify-items:center;
+      width:99%;display:grid;grid-template-columns:1fr 1fr;
+      gap:10px;margin:10px auto 2px auto;justify-items:center;
     }
     .memory-btn {
-      border-radius:11px;border:2px solid #d2dffa;
+      border-radius:10px;border:2px solid #d2dffa;
       background:#f5faff;color:#384973;font-weight:700;
-      padding:11px 0;font-size:16px;cursor:pointer;transition:.13s;
-      box-shadow:0 1px 6px #d6e5f755;
-      margin-bottom:0;width:92%;
+      padding:8.5px 0;font-size:15px;cursor:pointer;transition:.13s;
+      box-shadow:0 1px 5px #d6e5f744;
+      margin-bottom:0;width:91%;
     }
     .memory-btn.selected {
       background:#3577e7;color:#fff;border-color:#3577e7;
-      box-shadow:0 2px 10px #74a7fc33;
+      box-shadow:0 2px 8px #74a7fc2a;
     }
-    /* Карусель */
     .phone-carousel {
-      margin:29px auto 21px auto;width:100%;
-      display:flex;align-items:center;justify-content:center;gap:13px;
-      min-height:176px;user-select:none;touch-action:pan-x;
+      margin:15px auto 0 auto;width:100%;
+      display:flex;align-items:center;justify-content:center;
+      min-height:195px;user-select:none;touch-action:pan-x;
       position:relative;
     }
-    .carousel-btn {
-      width:38px;height:38px;border:none;background:#e6eefd;
-      color:#3577e7;border-radius:50%;font-size:26px;
-      display:flex;align-items:center;justify-content:center;cursor:pointer;transition:.13s;
-      box-shadow:0 2px 10px #cad3e444;
-    }
-    .carousel-btn:active {background:#c3dbf7;}
     .phone-box {
-      width:190px;background:#fff;border-radius:17px;box-shadow:0 6px 24px #d1e3fd47;
-      display:flex;flex-direction:column;align-items:center;padding:18px 7px 14px 7px;transition:.22s;
-      border:2px solid #e9eefd;min-height:168px;cursor:pointer;position:relative;
+      width:92vw;max-width:330px;
+      background:#fff;border-radius:17px;box-shadow:0 5px 19px #d1e3fd36;
+      display:flex;flex-direction:column;align-items:center;
+      padding:11px 2px 11px 2px;transition:.22s;
+      border:2px solid #e9eefd;min-height:180px;cursor:pointer;position:relative;
       overflow:hidden;
+      margin:0 auto;
     }
-    .phone-img {width:112px;height:112px;object-fit:contain;margin-bottom:11px;transition:.21s;}
-    .phone-name {font-size:19px;color:#18233a;font-weight:700;}
+    .phone-img {
+      width:110px;height:140px;object-fit:contain;
+      margin-bottom:6px;transition:.21s;
+      display:block;
+    }
+    .phone-name {font-size:17px;color:#18233a;font-weight:700;}
     .phone-box.animate-left, .phone-box.animate-right {animation-duration:.41s;animation-fill-mode:forwards;}
     .phone-box.animate-left {animation-name:swipeLeft;}
     .phone-box.animate-right {animation-name:swipeRight;}
     @keyframes swipeLeft {
       0%{transform:translateX(0);opacity:1;}
-      49%{transform:translateX(-160px);opacity:.2;}
+      49%{transform:translateX(-140px);opacity:.2;}
       50%{transform:translateX(180px);opacity:0;}
       99%{transform:translateX(0);opacity:0;}
       100%{transform:translateX(0);opacity:1;}
     }
     @keyframes swipeRight {
       0%{transform:translateX(0);opacity:1;}
-      49%{transform:translateX(160px);opacity:.2;}
+      49%{transform:translateX(140px);opacity:.2;}
       50%{transform:translateX(-180px);opacity:0;}
       99%{transform:translateX(0);opacity:0;}
       100%{transform:translateX(0);opacity:1;}
@@ -150,40 +145,42 @@
       display:flex;align-items:center;justify-content:center;animation:fadeIn .19s;
     }
     .modal-content {
-      background:#fff;border-radius:22px;padding:43px 27px 33px 27px;text-align:center;
+      background:#fff;border-radius:22px;padding:38px 16px 28px 16px;text-align:center;
       box-shadow:0 7px 36px #bad3fa44;
-      min-width:240px; min-height:115px;
+      min-width:200px; min-height:105px;
     }
     .checkmark {
-      font-size:57px;color:#37e863;margin-bottom:11px;font-weight:700;
+      font-size:50px;color:#37e863;margin-bottom:9px;font-weight:700;
     }
-    .modal-text {font-size:20px;font-weight:700;color:#27333e;}
+    .modal-text {font-size:19px;font-weight:700;color:#27333e;}
     .loader {
-      margin:0 auto 17px auto;
+      margin:0 auto 13px auto;
       border:6px solid #e8eefb; border-top:6px solid #4a7bf7;
-      border-radius:50%; width:47px; height:47px;
+      border-radius:50%; width:42px; height:42px;
       animation:spin 1.05s linear infinite;
       display:inline-block;
     }
     @keyframes spin {100%{transform:rotate(360deg);}}
     .loading-message {
-      font-size:18px; color:#2a3c61; font-weight:600; margin-bottom:9px;
-      letter-spacing:0.01em;
-      animation: fadeInTxt 0.4s;
+      font-size:16px; color:#2a3c61; font-weight:600; margin-bottom:7px;
+      letter-spacing:0.01em;animation: fadeInTxt 0.4s;
     }
     @keyframes fadeIn {from{opacity:0;}to{opacity:1;}}
     @keyframes fadeInTxt {from{opacity:0;}to{opacity:1;}}
     .bottom-nav {
       position:fixed;left:0;right:0;bottom:0;background:#f5faff;z-index:10;
-      box-shadow:0 -2px 14px #d6e4f12a;border-radius:19px 19px 0 0;height:54px;
+      box-shadow:0 -2px 14px #d6e4f12a;border-radius:19px 19px 0 0;height:49px;
       display:flex;align-items:center;justify-content:space-around;
     }
-    .nav-ico {font-size:22px;color:#7a9eea;padding:6px 0 2px 0;opacity:.86;}
+    .nav-ico {font-size:20px;color:#7a9eea;padding:6px 0 2px 0;opacity:.86;}
     .nav-ico.active {color:#3577e7;opacity:1;}
     @media (max-width:460px){
-      .container{padding:0 0 69px 0;}
-      .phone-box{width:98vw;max-width:190px;}
-      .modal-content{padding:27px 4vw 17px 4vw;}
+      .container{padding:0 0 56px 0;}
+      .selector-area{width:99%;}
+      .main-header{font-size:20px;padding:14px 0 9px 0;}
+      .phone-box{width:98vw;max-width:330px;}
+      .modal-content{padding:19px 2vw 14px 2vw;}
+      .phone-img{width:120px;height:158px;}
     }
     @keyframes popupShow {from{transform:scale(.92);opacity:0;}to{transform:scale(1);opacity:1;}}
   </style>
@@ -201,19 +198,17 @@
           <div class="brand-list" id="brand-list"></div>
         </div>
       </div>
-      <div class="select-label" style="margin-top:13px;">Color</div>
+      <div class="select-label" style="margin-top:9px;">Color</div>
       <div class="color-select-box" id="color-select-box"></div>
       <div class="select-label">Memory capacity</div>
       <div class="memory-select-box" id="memory-select-box"></div>
     </div>
-    <!-- Карусель -->
+    <!-- Карусель (стрелки убраны, свайп только пальцем) -->
     <div class="phone-carousel" id="carousel-area" style="opacity:0;pointer-events:none;">
-      <button class="carousel-btn" id="prev-btn">&#8592;</button>
       <div class="phone-box" id="phone-box">
         <img src="" id="phone-img" class="phone-img" alt="Phone">
         <div class="phone-name" id="phone-name"></div>
       </div>
-      <button class="carousel-btn" id="next-btn">&#8594;</button>
     </div>
   </div>
   <!-- Modal: загрузка и успех -->
@@ -373,7 +368,7 @@
 
     // 1. Brand popup
     function renderBrandBtn() {
-      brandBtn.innerHTML = selectedBrand ? selectedBrand : '<span style="color:#a6b8d2;">Select brand</span>';
+      brandBtn.innerHTML = selectedBrand ? `<span style="margin-left:6px;">${selectedBrand}</span>` : '<span style="color:#a6b8d2;margin-left:6px;">Select brand</span>';
     }
     renderBrandBtn();
 
@@ -443,7 +438,7 @@
     }
     function hideCarousel(){ carousel.style.opacity="0";carousel.style.pointerEvents="none";}
 
-    // 5. Карусель + анимация
+    // 5. Карусель + анимация (только свайп)
     let lastAnim = '';
     function renderCarousel(anim){
       let ph = filteredPhones[phoneIdx];
@@ -457,15 +452,8 @@
       phoneImg.src = ph.imgs[colorIdx];
       phoneName.innerText = ph.name;
     }
-    document.getElementById('prev-btn').onclick = ()=>{
-      phoneIdx = (phoneIdx-1+filteredPhones.length)%filteredPhones.length;
-      renderCarousel('animate-right');
-    };
-    document.getElementById('next-btn').onclick = ()=>{
-      phoneIdx = (phoneIdx+1)%filteredPhones.length;
-      renderCarousel('animate-left');
-    };
-    // Touch-свайп для телефона
+
+    // Touch-свайп для телефона (лево/право)
     let startX = null;
     carousel.addEventListener('touchstart', function(e){
       if(e.touches.length===1) startX = e.touches[0].clientX;
